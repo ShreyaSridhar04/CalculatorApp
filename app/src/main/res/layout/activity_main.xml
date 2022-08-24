@@ -20,7 +20,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.055" />
+        app:layout_constraintVertical_bias="0.058" />
 
     <EditText
         android:id="@+id/num1ET"
@@ -47,10 +47,10 @@
         android:textColorHighlight="@color/darkblue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintHorizontal_bias="0.446"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.557" />
+        app:layout_constraintVertical_bias="0.6" />
 
     <Button
         android:id="@+id/findSum"
@@ -68,8 +68,8 @@
 
     <Button
         android:id="@+id/findDifference"
-        android:layout_width="86dp"
-        android:layout_height="55dp"
+        android:layout_width="90dp"
+        android:layout_height="49dp"
         android:onClick="findDifference"
         android:text="-"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -81,8 +81,8 @@
 
     <Button
         android:id="@+id/findQuotient"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="90dp"
+        android:layout_height="49dp"
         android:onClick="findQuotient"
         android:text="÷"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -94,8 +94,8 @@
 
     <Button
         android:id="@+id/findProduct"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="90dp"
+        android:layout_height="49dp"
         android:onClick="findProduct"
         android:text="x"
         app:layout_constraintBottom_toBottomOf="parent"
